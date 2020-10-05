@@ -1,0 +1,18 @@
+<html>
+	<head>
+        <title>FSL Extension Toolkit</title>
+		<script src="scripts/fsl.js"></script>
+
+    </head>
+	
+	<body>
+		<pre id="load"></pre>
+		<pre id="picklist"></pre>
+		<pre id="showRecord"></pre>
+		<pre id="query"></pre>
+		<pre id="recordids"></pre>
+		<button onclick="showRecord('0WO3K0000004S7tWAE','WorkOrder');">Get Record</button>
+		<button onclick="query('Status','Ready for Assignment','WorkOrder','Select Id FROM WorkOrder');">Execute SOQL</button>
+		<button onclick="getPickListValues('WorkOrder','Status');">Fetch Picklist</button>
+	</body>
+</html>
